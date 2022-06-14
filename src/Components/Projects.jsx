@@ -1,7 +1,10 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+/* eslint-disable arrow-body-style */
+import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import Carousel from 'react-bootstrap/Carousel';
 
-import "./Project.css";
+import './Project.css';
+
 const Projects = () => {
   return (
     <>
@@ -9,7 +12,8 @@ const Projects = () => {
         <div className="row">
           <div className="col-4">
             <h2 className="our">
-              OUR <span id="value2">VALUABLE UPCOMING</span>
+              OUR
+              <span id="value2">VALUABLE UPCOMING</span>
             </h2>
             <h2 className="pro">PROJECTS</h2>
             <p className="parap">
