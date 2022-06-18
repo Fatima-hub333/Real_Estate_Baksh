@@ -1,8 +1,11 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
+import Navbar from './Navbar';
 import './Services.css';
 
 const Serives = () => (
   <>
+    <Navbar />
     <div id="service">
       <div className="container">
         <div className="row">

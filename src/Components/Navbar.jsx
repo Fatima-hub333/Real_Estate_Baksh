@@ -1,5 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable linebreak-style */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => (
@@ -27,29 +28,29 @@ const Navbar = () => (
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item ">
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to="/About">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to="/Projects">
                       Projects
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link " href="#">
+                    <Link className="nav-link " to="/Services">
                       Events
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link " href="#">
+                    <Link className="nav-link " to="/Blogs">
                       Blogs
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

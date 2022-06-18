@@ -1,31 +1,31 @@
-/* eslint-disable arrow-body-style */
+/* eslint-disable linebreak-style */
 import React from 'react';
-// eslint-disable-next-line no-unused-vars
-import Carousel from 'react-bootstrap/Carousel';
+import Navbar from './Navbar';
+// import Carousel from 'react-bootstrap/Carousel';
 
 import './Project.css';
 
-const Projects = () => {
-  return (
-    <>
-      <div className="container">
-        <div className="row">
-          <div className="col-4">
-            <h2 className="our">
-              OUR
-              <span id="value2">VALUABLE UPCOMING</span>
-            </h2>
-            <h2 className="pro">PROJECTS</h2>
-            <p className="parap">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-              ipsam. Expedita quis cupiditate sunt, placeat incidunt odit
-              deserunt assumenda voluptas.
-            </p>
-          </div>
+const Projects = () => (
+  <>
+    <Navbar />
+    <div className="container">
+      <div className="row">
+        <div className="col-4">
+          <h2 className="our">
+            OUR
+            <span id="value2">VALUABLE UPCOMING</span>
+          </h2>
+          <h2 className="pro">PROJECTS</h2>
+          <p className="parap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+            ipsam. Expedita quis cupiditate sunt, placeat incidunt odit
+            deserunt assumenda voluptas.
+          </p>
         </div>
       </div>
-      {/* carousel */}
-      {/* <div className="carousel">
+    </div>
+    {/* carousel */}
+    {/* <div className="carousel">
         <Carousel>
           <Carousel.Item>
             <img className="d-block w-100" src="" alt="First slide" />
@@ -46,9 +46,8 @@ const Projects = () => {
           </Carousel.Item>
         </Carousel>
       </div> */}
-      );
-    </>
-  );
-};
+    );
+  </>
+);
 
 export default Projects;

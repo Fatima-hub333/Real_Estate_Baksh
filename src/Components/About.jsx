@@ -1,8 +1,11 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import './About.css';
+import Navbar from './Navbar';
 
 const About = () => (
   <>
+    <Navbar />
     <div className="aboutsec">
       <div className="container">
         <div className="row">
