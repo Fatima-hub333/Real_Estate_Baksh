@@ -1,0 +1,140 @@
+.servicemain {
+  background-color: #fbfbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.heading1 {
+  margin-top: 5%;
+  font-family: 'Sackers Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 73px;
+  line-height: 100px;
+  text-align: left;
+  color: #0c1f30;
+  margin-left: 5%;
+
+  /* background-color: #6E6E73; */
+}
+
+.heading2 {
+  /* background-color: #6E6E73; */
+  margin-top: -15%;
+  font-family: 'Sackers Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 73px;
+  line-height: 100px;
+  text-align: left;
+  color: #0c1f30;
+  margin-left: 5%;
+}
+
+.heading3 {
+  float: right;
+}
+
+.servicediv1 {
+  margin-left: 5%;
+  border-left: none;
+  border-top: none;
+  margin-bottom: 5%;
+}
+
+.servicediv2 {
+  margin-left: 5%;
+
+  /* border: 1px solid black; */
+  border-top: none;
+  border-left: none;
+  margin-bottom: 5%;
+}
+
+.servicediv3 {
+  margin-left: 5%;
+
+  /* border: 1px solid black; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 5%;
+}
+
+.txt4 {
+  margin-left: 8%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  align-items: center;
+  color: black;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.txt5 {
+  margin-left: 8%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+
+  /* or 26px */
+  font-family: 'Montserrat', sans-serif;
+  color: #6e6e73;
+}
+
+.txt6 {
+  margin-left: 8%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  align-items: center;
+  color: black;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.txt7 {
+  margin-left: 8%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+
+  /* or 26px */
+  font-family: 'Montserrat', sans-serif;
+  color: #6e6e73;
+}
+
+.txt8 {
+  margin-left: 8%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  align-items: center;
+  color: black;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.txt9 {
+  margin-left: 8%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+
+  /* or 26px */
+  font-family: 'Montserrat', sans-serif;
+  color: #6e6e73;
+}

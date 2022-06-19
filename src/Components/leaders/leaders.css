@@ -1,0 +1,28 @@
+.ourleadermain {
+  background-color: #fbfbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.leaderss {
+  background-color: #666;
+  width: 295px;
+  height: 498px;
+}
+
+.ldpos {
+  font-size: 17px;
+  color: black;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+.ldname {
+  font-size: 36px;
+  color: black;
+  font-weight: 850;
+  line-height: 36px;
+}

@@ -1,0 +1,73 @@
+.ourprojectmain {
+  background-color: #fbfbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.projectdiv1 {
+  /* background-color: aqua; */
+  margin-left: 15%;
+  text-align: left;
+}
+
+.projectdiv2 {
+  /* background-color: rgb(141, 235, 113); */
+  margin-left: 15%;
+  text-align: left;
+  height: 100%;
+
+  /* display: flex; */
+}
+
+.txt1 {
+  font-size: 50px;
+  color: #0c1f30;
+  font-family: 'Sackers Gothic Std', sans-serif;
+}
+
+.txt2 {
+  font-size: 50px;
+  color: #0c1f30;
+  margin-top: -13%;
+  font-family: 'Sackers Gothic Std', sans-serif;
+}
+
+.txt3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #6e6e73;
+  width: 280px;
+  height: 199px;
+}
+
+.ant-card-body {
+  display: none !important;
+}
+
+.contentstyle {
+  height: 160px;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+  background-color: #364d79;
+
+  /* background: '#364d79'; */
+}
+
+/* .carousel {
+  width: 50%;
+  height: 160px;
+  margin-right: 10px;
+} */
+
+.rec-item-wrapper {
+  height: 400px !important;
+
+  /* background-color: #0c1f30; */
+}

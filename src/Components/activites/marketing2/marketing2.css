@@ -1,0 +1,113 @@
+
+.titlemar {
+  /* margin-top: 1px; */
+  text-align: left;
+
+
+  /* position: absolute; */
+
+  /* display: flex; */
+
+  /* text-align: right; */
+
+  /* width: 146px;
+    height: 20px; */
+
+  /* left: 200px; */
+
+  /* top: 300px; */
+  right: 50px;
+  font-family: 'Sackers Gothic Std', sans-serif;
+
+  /* color: white; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+
+  /* line-height: 20px; */
+
+  /* text-transform: lowercase;
+    z-index: 1;  */
+
+  /* background-color: aliceblue; */
+  color: #c49a50;
+}
+
+.titlemar2 {
+  margin-top: -65px;
+  font-family: 'Sackers Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  word-spacing: 10px;
+
+  /* letter-spacing: 8px; */
+  font-size: 45px;
+  line-height: 46px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+}
+
+.textm2 {
+  /* background-color: aliceblue; */
+  margin-top: 100px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+
+  /* or 36px */
+
+  color: #b4b4be;
+}
+
+.imgm2 {
+  /* position: absolute; */
+  width: 620px;
+  height: 620px;
+  left: calc(50% - 699px / 2 + 319.5px);
+  margin-top: 15px;
+}
+
+.learnbtn2 {
+  font-family: 'Sackers Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+
+  /* line-height: 19px;
+display: flex; */
+
+  /* align-items: left; */
+  text-align: left;
+  text-transform: lowercase;
+  color: #fff;
+}
+
+.marketing2 {
+  /* background: radial-gradient(78.08% 528.77% at 85.42% 39.59%, #0C1F30 33.33%, #02060A 100%); */
+
+  /* display: flex; */
+
+  /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+
+  /* min-height: 100vh; */
+
+  /* z-index: -1; */
+}
+
+/* width: 146px;
+height: 20px;
+left: 985px;
+top: 68px;
+
+font-family: 'Sackers Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+text-transform: lowercase; */
