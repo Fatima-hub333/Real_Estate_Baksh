@@ -7,27 +7,18 @@ const About = () => (
   <>
 
     <Navbar />
-    <div className="aboutsec">
-      <div className="container">
-        <div className="d-flex justify-content-between spacing">
-          <div className="about">
-            <h2 className="aboutheading">ABOUT</h2>
-            <h2 className="aboutheading2">BAKSH</h2>
-            <p className="abt-dis">Discover more</p>
-            <span className="line" />
-            <p className="abt-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              consectetur nemo dolorem facilis incidunt repellat iusto quasi
-              velit rerum nesciunt!
-            </p>
-          </div>
-          <div className="bol">
-            <img src="abt.png" className="abtimg" alt="" />
-          </div>
+    <div className="about_header">
+      <div className="img_header">
+        <img src="rectangle.png" alt="" className="about_img" />
+      </div>
+      <div className="text_header">
+        <div className="h1 text-uppercase text-center">
+          about us
         </div>
       </div>
     </div>
-    <div className="d-flex justify-content-center align-items-center dream-content">
+
+    <div className="d-flex dream-content">
       <h1 className="mr-5 h3">BAKSH</h1>
       <p className="text-uppercase bord">
         We value your dream
@@ -45,7 +36,11 @@ const About = () => (
         <img src="rect.png" className="rectImg" alt="" />
       </div>
       <div className="bool_ven_1">
-        <div className="h3 text_2">Who are we?</div>
+        <div className="h3 text_2">
+          Who are
+          {' '}
+          <span>we?</span>
+        </div>
         <div className="boder" />
         <p className="text_1">
           BAKSH International transforms real estate into
@@ -83,11 +78,13 @@ const About = () => (
       </div>
     </div>
     <div className="container-flex">
-      <div className="d-flex justify-content-between align-items-center">
+      <div className="d-flex justify-content-between align-items-center display">
         <div className="par">
-          We Provide All The Essentials
+          We Provide All The
+          {' '}
+          <span>Essentials</span>
         </div>
-        <img src="fe.png" alt="" />
+        <img src="fe.png" alt="" className="place_img" />
       </div>
       <div className="grid">
         <div className="g-col-4">
@@ -103,7 +100,7 @@ const About = () => (
         <div className="g-col-4">
           <div className="h4">
             <img src="center.png" alt="" />
-            Real Estate Consultation
+            Construction Services
           </div>
           <div className="text_3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -113,7 +110,7 @@ const About = () => (
         <div className="g-col-4">
           <div className="h4">
             <img src="home.png" alt="" />
-            Real Estate Consultation
+            Property management
           </div>
           <div className="text_3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -125,7 +122,7 @@ const About = () => (
         <div className="g-col-4">
           <div className="h4">
             <img src="call.png" alt="" />
-            Real Estate Consultation
+            Buy, Sell & Rent Properties
           </div>
           <div className="text_3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -135,7 +132,7 @@ const About = () => (
         <div className="g-col-4">
           <div className="h4">
             <img src="center.png" alt="" />
-            Real Estate Consultation
+            Portfolio Management
           </div>
           <div className="text_3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -145,7 +142,7 @@ const About = () => (
         <div className="g-col-4">
           <div className="h4">
             <img src="home.png" alt="" />
-            Real Estate Consultation
+            Property Adjustment
           </div>
           <div className="text_3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -168,22 +165,20 @@ const About = () => (
         </div>
         <div className="g-col-3">
           <div className="h4 no_border">
-            CREATE
+            COMMIT
           </div>
           <div className="text_01">
-            We transform innovative ideas
-            into reality and create modern
-            solutions to problems.
+            We commit to supporting you on your pathway to property ownership.
+            faster, and more efficient.
           </div>
         </div>
         <div className="g-col-3">
           <div className="h4 no_border">
-            CREATE
+            COMFORT
           </div>
           <div className="text_01">
-            We transform innovative ideas
-            into reality and create modern
-            solutions to problems.
+            We provide ease and user-friendliness
+            in every aspect of our business.
           </div>
         </div>
       </div>
@@ -191,12 +186,11 @@ const About = () => (
       <div className="grid">
         <div className="g-col-3">
           <div className="h4 no_border">
-            CREATE
+            CHARISMA
           </div>
           <div className="text_01">
-            We transform innovative ideas
-            into reality and create modern
-            solutions to problems.
+            We concentrate on captivating
+            attractiveness and charm that can inspire devotion in others.
           </div>
         </div>
         <div className="g-col-3">
@@ -211,12 +205,12 @@ const About = () => (
         </div>
         <div className="g-col-3">
           <div className="h4 no_border">
-            CREATE
+            CONFLUENCE
           </div>
           <div className="text_01">
-            We transform innovative ideas
-            into reality and create modern
-            solutions to problems.
+            The knowledge is of no value
+            unless you put it into practice.
+            We are a place where knowledge and experience merge towards success.
           </div>
         </div>
       </div>
@@ -246,7 +240,7 @@ const About = () => (
       </div>
     </div>
     <div className="pres_comp">
-      <div className="d-flex justify-content-around align-items-center">
+      <div className="d-flex justify-content-around align-items-center pres_company">
         <div className="title_1">
           <div className="div_title">
             OUR
@@ -260,9 +254,18 @@ const About = () => (
       </div>
     </div>
     <div className="img_dir">
-      <div className="d-flex">
+      <div className="d-flex d_repr">
         <div className="div_ceo">
-          <img src="mask.png" alt="" className="classImg" />
+          <img src="dir_1.png" alt="" className="classImg" />
+          <div className="pers_status text-uppercase">
+            director operations
+          </div>
+          <div className="pers_name text-uppercase text-center">
+            ch. mehmood akhter
+          </div>
+        </div>
+        <div className="div_ceo">
+          <img src="dir_2.png" alt="" className="classImg" />
           <div className="pers_status">
             DIRECTOR COMPANY AFFAIRS
           </div>
@@ -271,30 +274,21 @@ const About = () => (
           </div>
         </div>
         <div className="div_ceo">
-          <img src="mask.png" alt="" className="classImg" />
+          <img src="dir_3.png" alt="" className="classImg" />
           <div className="pers_status">
-            DIRECTOR COMPANY AFFAIRS
+            DIRECTOR PUBLIC RELATIONS
           </div>
           <div className="pers_name text-uppercase text-center">
-            Zia Ullah Abbasi
+            Sheikh Hassan Shakoor
           </div>
         </div>
         <div className="div_ceo">
-          <img src="mask.png" alt="" className="classImg" />
+          <img src="dir_4.png" alt="" className="classImg" />
           <div className="pers_status">
-            DIRECTOR COMPANY AFFAIRS
+            MARKETING CONSULTANT
           </div>
           <div className="pers_name text-uppercase text-center">
-            Zia Ullah Abbasi
-          </div>
-        </div>
-        <div className="div_ceo">
-          <img src="mask.png" alt="" className="classImg" />
-          <div className="pers_status">
-            DIRECTOR COMPANY AFFAIRS
-          </div>
-          <div className="pers_name text-uppercase text-center">
-            Zia Ullah Abbasi
+            Dr. Muhammad Umar
           </div>
         </div>
       </div>

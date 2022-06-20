@@ -65,17 +65,17 @@ const Navbar = () => (
       </div>
     </nav>
     {/* header section start */}
-    <div className="container">
+    {/* <div className="container">
       <div className="col-12">
         <h1 className="BKS">BAKSH</h1>
       </div>
-    </div>
+    </div> */}
     {/* nav end */}
 
     {/* header end */}
 
     {/* section start */}
-    <div className="container">
+    {/* <div className="container">
       <div className="col-md-12 col-12 mt-5">
         <p className="value">WE VALUE YOUR DREAMS</p>
         <p className="para2">
@@ -86,11 +86,11 @@ const Navbar = () => (
           developement, management, and investment services
         </p>
       </div>
-    </div>
+    </div> */}
     {/* section end */}
 
     {/* contact us start */}
-    <div className="container">
+    {/* <div className="container">
       <div className="row">
         <div className="col-md-6 col-12 contact">
           <h2 className="real-estate">NEED A REAL ESTATE </h2>
@@ -107,7 +107,7 @@ const Navbar = () => (
           </p>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* contact us end */}
   </>
 );
