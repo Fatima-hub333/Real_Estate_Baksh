@@ -5,11 +5,12 @@ import Navbar from './Navbar';
 
 const About = () => (
   <>
+
     <Navbar />
     <div className="aboutsec">
       <div className="container">
-        <div className="row">
-          <div className="col-md-6 col-12">
+        <div className="d-flex justify-content-between spacing">
+          <div className="about">
             <h2 className="aboutheading">ABOUT</h2>
             <h2 className="aboutheading2">BAKSH</h2>
             <p className="abt-dis">Discover more</p>
@@ -20,12 +21,285 @@ const About = () => (
               velit rerum nesciunt!
             </p>
           </div>
-          <div className="col-md-6 col-12">
+          <div className="bol">
             <img src="abt.png" className="abtimg" alt="" />
           </div>
         </div>
       </div>
     </div>
+    <div className="d-flex justify-content-center align-items-center dream-content">
+      <h1 className="mr-5 h3">BAKSH</h1>
+      <p className="text-uppercase bord">
+        We value your dream
+      </p>
+      <div className="font-text">
+        <p className="border-end">
+          Our core mission is to provide the highest
+          caliber real estate development,
+          management, and investment services.
+        </p>
+      </div>
+    </div>
+    <div className="d-flex bool_ven">
+      <div className="bool_ven_1">
+        <img src="rect.png" className="rectImg" alt="" />
+      </div>
+      <div className="bool_ven_1">
+        <div className="h3 text_2">Who are we?</div>
+        <div className="boder" />
+        <p className="text_1">
+          BAKSH International transforms real estate into
+          a real advantage through a global perspective,
+          leading mindset, and proven expertise.
+          We offer an unwavering commitment to our projects and clients.
+          BAKSH International&rsquo;s story started in 2020 with an aim to deliver
+          trust and exceptional real estate services to its customers.
+          {' '}
+
+        </p>
+      </div>
+    </div>
+    <div className="flex">
+      <div className="around">
+        <div className="h3 text-uppercase text-center">
+          mission
+        </div>
+        <div className="text">
+          Our Mission is to Set Standards of Commitment,
+          Trust and Professionalism to Empower Our Clients
+          With High Standards of Living Financially and Morally.
+        </div>
+      </div>
+      <div className="around">
+        <div className="h3 text-uppercase text-center">
+          vision
+        </div>
+        <div className="text">
+          We Believe in Dedicated Services and Revolutionary Technology
+          to Accelerate the Real Estate Industry Through Proven Systems.
+          We Aim to Reshape the Industry That Inspires and Fulfils
+          Your Property Investment Aspirations.
+        </div>
+      </div>
+    </div>
+    <div className="container-flex">
+      <div className="d-flex justify-content-between align-items-center">
+        <div className="par">
+          We Provide All The Essentials
+        </div>
+        <img src="fe.png" alt="" />
+      </div>
+      <div className="grid">
+        <div className="g-col-4">
+          <div className="h4">
+            <img src="call.png" alt="" />
+            Real Estate Consultation
+          </div>
+          <div className="text_3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="g-col-4">
+          <div className="h4">
+            <img src="center.png" alt="" />
+            Real Estate Consultation
+          </div>
+          <div className="text_3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="g-col-4">
+          <div className="h4">
+            <img src="home.png" alt="" />
+            Real Estate Consultation
+          </div>
+          <div className="text_3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </div>
+      <div className="grid">
+        <div className="g-col-4">
+          <div className="h4">
+            <img src="call.png" alt="" />
+            Real Estate Consultation
+          </div>
+          <div className="text_3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="g-col-4">
+          <div className="h4">
+            <img src="center.png" alt="" />
+            Real Estate Consultation
+          </div>
+          <div className="text_3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="g-col-4">
+          <div className="h4">
+            <img src="home.png" alt="" />
+            Real Estate Consultation
+          </div>
+          <div className="text_3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="creator">
+      <div className="grid">
+        <div className="g-col-3">
+          <div className="h4 no_border">
+            CREATE
+          </div>
+          <div className="text_01">
+            We transform innovative ideas
+            into reality and create modern
+            solutions to problems.
+          </div>
+        </div>
+        <div className="g-col-3">
+          <div className="h4 no_border">
+            CREATE
+          </div>
+          <div className="text_01">
+            We transform innovative ideas
+            into reality and create modern
+            solutions to problems.
+          </div>
+        </div>
+        <div className="g-col-3">
+          <div className="h4 no_border">
+            CREATE
+          </div>
+          <div className="text_01">
+            We transform innovative ideas
+            into reality and create modern
+            solutions to problems.
+          </div>
+        </div>
+      </div>
+      <img src="core.png" alt="" className="img_core" />
+      <div className="grid">
+        <div className="g-col-3">
+          <div className="h4 no_border">
+            CREATE
+          </div>
+          <div className="text_01">
+            We transform innovative ideas
+            into reality and create modern
+            solutions to problems.
+          </div>
+        </div>
+        <div className="g-col-3">
+          <div className="h4 no_border">
+            CREATE
+          </div>
+          <div className="text_01">
+            We transform innovative ideas
+            into reality and create modern
+            solutions to problems.
+          </div>
+        </div>
+        <div className="g-col-3">
+          <div className="h4 no_border">
+            CREATE
+          </div>
+          <div className="text_01">
+            We transform innovative ideas
+            into reality and create modern
+            solutions to problems.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="d-flex justify-content-around prese">
+      <img src="img5.png" alt="" className="img_ceo" />
+      <div className="presentation">
+        <div className="h2_title">
+          <div className="h2_title_1">
+            CEO
+          </div>
+          MESSAGE
+        </div>
+        <div className="text_pres">
+          <div className="title">
+            The Standard of Your Living Depends Upon the Quality of Your Investments.
+          </div>
+
+          “Our reputation for corporate integrity attracts good team members,
+          great customers, and even greater opportunities.
+          Our business process delivers value and flexible service options.
+          We are strongly devoted to fulfilling the dreams of our customers.
+          We believe that we are enablers of people’s dreams.”
+        </div>
+        <div className="text-uppercase name_ceo">mohsin Abbas Baksh</div>
+        <div className="text-uppercase status">ceo/founder</div>
+      </div>
+    </div>
+    <div className="pres_comp">
+      <div className="d-flex justify-content-around align-items-center">
+        <div className="title_1">
+          <div className="div_title">
+            OUR
+          </div>
+          LEADER
+        </div>
+        <div className="text_prese">
+          Our Leaders Offer Exceptional Expertise
+          and Proficiency in the Real Estate Industry
+        </div>
+      </div>
+    </div>
+    <div className="img_dir">
+      <div className="d-flex">
+        <div className="div_ceo">
+          <img src="mask.png" alt="" className="classImg" />
+          <div className="pers_status">
+            DIRECTOR COMPANY AFFAIRS
+          </div>
+          <div className="pers_name text-uppercase text-center">
+            Zia Ullah Abbasi
+          </div>
+        </div>
+        <div className="div_ceo">
+          <img src="mask.png" alt="" className="classImg" />
+          <div className="pers_status">
+            DIRECTOR COMPANY AFFAIRS
+          </div>
+          <div className="pers_name text-uppercase text-center">
+            Zia Ullah Abbasi
+          </div>
+        </div>
+        <div className="div_ceo">
+          <img src="mask.png" alt="" className="classImg" />
+          <div className="pers_status">
+            DIRECTOR COMPANY AFFAIRS
+          </div>
+          <div className="pers_name text-uppercase text-center">
+            Zia Ullah Abbasi
+          </div>
+        </div>
+        <div className="div_ceo">
+          <img src="mask.png" alt="" className="classImg" />
+          <div className="pers_status">
+            DIRECTOR COMPANY AFFAIRS
+          </div>
+          <div className="pers_name text-uppercase text-center">
+            Zia Ullah Abbasi
+          </div>
+        </div>
+      </div>
+    </div>
+
   </>
 );
 
